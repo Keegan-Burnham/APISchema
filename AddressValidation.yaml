@@ -1,7 +1,6 @@
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
-openapi: 3.0.3
 metadata:
   title: Address Validation - Street Level
   description: The Address Validation Street Level API can be used to check addresses
