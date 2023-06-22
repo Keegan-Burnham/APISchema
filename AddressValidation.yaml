@@ -6,7 +6,7 @@ metadata:
     against the United States Postal Service database of valid addresses in the U.S.
     and Puerto Rico.
   links:
-    - url: https://github.com/swagger-api/swagger-petstore
+    - url: https://github.com/UPS-API/java-api-examples/tree/main/addressValidation
       title: GitHub Repo
       icon: github
     - url: https://github.com/Keegan-Burnham/APISchema/blob/main/AddressValidation.oas.yaml
@@ -17,4 +17,4 @@ spec:
   lifecycle: experimental
   owner: UPS
   definition:
-    $text: ./AddressValidation.oas.yaml
+    $text: https://github.com/Keegan-Burnham/APISchema/blob/main/AddressValidation.oas.yaml

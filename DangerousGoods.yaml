@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: Dangerous-Goods-Utility
+  description: The Dangerous Goods API provides the ability to determine what Dangerous
+    Goods (also known as Hazardous Materials) can be carried by UPS.
+  links:
+    - url: https://github.com/UPS-API/java-api-examples/tree/main/dangerousGoods
+      title: GitHub Repo
+      icon: github
+    - url: https://github.com/Keegan-Burnham/APISchema/blob/main/AddressValidation.oas.yaml
+      title: API Spec
+      icon: code
+spec:
+  type: openapi
+  lifecycle: experimental
+  owner: UPS
+  definition:
+    $text: ./AddressValidation.oas.yaml
