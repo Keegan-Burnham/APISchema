@@ -5,10 +5,7 @@ metadata:
   description: API can be only used by users that plan to ship packages manifested,
     tendered, and delivered by TForce Freight
   links:
-    - url: https://github.com/swagger-api/swagger-petstore
-      title: GitHub Repo
-      icon: github
-    - url: https://github.com/Keegan-Burnham/APISchema/blob/main/AddressValidation.oas.yaml
+    - url: https://github.com/Keegan-Burnham/APISchema/blob/main/FreightPickup.oas.yaml
       title: API Spec
       icon: code
 spec:
@@ -16,4 +13,4 @@ spec:
   lifecycle: experimental
   owner: UPS
   definition:
-    $text: ./AddressValidation.oas.yaml
+    $text: https://github.com/Keegan-Burnham/APISchema/blob/main/FreightPickup.oas.yaml

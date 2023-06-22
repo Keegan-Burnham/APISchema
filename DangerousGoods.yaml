@@ -8,7 +8,7 @@ metadata:
     - url: https://github.com/UPS-API/java-api-examples/tree/main/dangerousGoods
       title: GitHub Repo
       icon: github
-    - url: https://github.com/Keegan-Burnham/APISchema/blob/main/AddressValidation.oas.yaml
+    - url: https://github.com/Keegan-Burnham/APISchema/blob/main/DangerousGoods.oas.yaml
       title: API Spec
       icon: code
 spec:
@@ -16,4 +16,4 @@ spec:
   lifecycle: experimental
   owner: UPS
   definition:
-    $text: ./AddressValidation.oas.yaml
+    $text: https://github.com/Keegan-Burnham/APISchema/blob/main/DangerousGoods.oas.yaml
