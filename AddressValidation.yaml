@@ -5,7 +5,6 @@ metadata:
   description: The Address Validation Street Level API can be used to check addresses
     against the United States Postal Service database of valid addresses in the U.S.
     and Puerto Rico.
-  tags:
   links:
     - url: https://github.com/swagger-api/swagger-petstore
       title: GitHub Repo
